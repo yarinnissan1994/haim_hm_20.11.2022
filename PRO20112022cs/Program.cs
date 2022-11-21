@@ -13,7 +13,7 @@ namespace PRO20112022cs
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = new UTF8Encoding();
+            Console.OutputEncoding = Encoding.GetEncoding("windows-1255");
             // *** ex03 ***
             //Write_3a();
             //Write_3b();
